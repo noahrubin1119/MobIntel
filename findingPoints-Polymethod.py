@@ -15,7 +15,7 @@ square = {
 print(square)
 
 
-def gen_points(square, n = 5):
+def gen_points(square, n = 7):
     y1 = square.get("southwest").get("lng")
     x1 = square.get("southwest").get("lat")
     y2 = square.get("northeast").get("lng")
